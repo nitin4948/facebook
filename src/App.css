@@ -1,0 +1,29 @@
+.main-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.no-posts {
+  padding: 16px;
+  margin: 32px 0;
+  text-align: center;
+  border: 1px solid #d4d4d4;
+  background-color: #fff;
+}
+
+.main-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 24px 0;
+}
+
+.no-posts > p {
+  color: #b71c1c;
+}
+
+@media screen and (max-width: 599px) {
+  .main-container {
+    max-width: 100%;
+    margin: 0 8px;
+  }
+}
